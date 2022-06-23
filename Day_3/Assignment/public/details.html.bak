@@ -1,0 +1,96 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta name="description" content="This website is about to know me!">
+		<title>Rajesh Girase Persnol Details ❤</title>
+		<!--<script>alert(document.getElementById("btn1"))</script>-->
+		<script src="./js/1.js"></script>
+		<link rel="icon" type="image/x-icon" href="/images/favicon_2.ico">
+	</head>
+	<body style="background-color:#FFE6E6;">
+	<section class='hero_section'>
+		<h1>MY INFO.</h1>
+		<a href="/dynamic.html">Visit index 2</a>
+		<img src="./images/photo-modified.png" alt="RAJESH GIRASE" width="100" height="100"><br>
+		<h3>Enter Details</h3>
+		<form action="/login">
+		<div>
+			<label for="fname" >First name:</label>
+			<input type="text" id="fname" placeholder="first name" name="fname" autocomplete="OFF" required><br><br>
+			<label for="lname">Last name:</label>
+			<input type="text" id="lname" placeholder="last name" name="lname" autocomplete="ON" required><br><br>
+			<label for="email">Email Address:</label>
+			<input type="email" id="email" placeholder="email" name="email" required><br><br>
+			<label for="country-names"> Contact number:</label>
+			<input type="phone" id="phone_number" placeholder="phone" pattern="[0-9]{10-12}" name="phone" required><br><br>
+			<label for="DOB"> Date of Birth:</label>
+			<input type="date" id="date" name="DOB"><br><br>
+			<label for="file"> Choose file:</label>
+			<input type="file" id="file" name="file" ><br><br>
+		</div>
+		<div>
+		
+			<label for="country">Select Country:</label>
+			<select name="country-names" id="country-names">
+				<option value=""></option>
+				<option value="India">India</option>
+				<option value="UK">UK</option>
+				<option value="USA">USA</option>
+			</select>
+		</div>	
+			<h4>How many language do you?</h4>
+			<input type="checkbox" id="lang1" name="lang1" value="Hindi">
+			<label for="lang1"> Hindi</label><br>
+			<input type="checkbox" id="lang2" name="lang2" value="Gujarati">
+			<label for="lang2"> Gujarati</label><br>
+			<input type="checkbox" id="lang3" name="lang3" value="English">
+			<label for="lang3"> English</label><br>
+			<input type="checkbox" id="lang4" name="lang4" value="Marathi">
+			<label for="lang4"> Marathi</label><br>
+			<input type="checkbox" id="lang5" name="lang5" value="japanese">
+			<label for="lang5"> japanese</label><br>
+			<input type="checkbox" id="lang6" name="lang6" value="French">
+			<label for="lang6"> French</label><br><br>
+			
+			
+			<h3>Programing Skills</h3>
+			<ol type="1">
+			  <li>JAVA</li>
+			  <li>DATA STRUCTURE</li>
+			  <li>SQL</li>
+			  <li>Web-Technologies</li>
+			</ol> 
+			
+			<h3>Gender</h3>
+			<input type="radio"  name="sex" value="male">
+			<label for="male">Male</label><br>
+			<input type="radio"  name="sex" value="female">
+			<label for="female">Female</label><br><br>
+			
+			<h4>Your message.</h4>
+			<textarea id="review" name="review" rows="6" cols="50"></textarea><br><br>
+			
+			<button type="submit" id='btn1' onclick="change(this)" value="click" >Submit</button> <br>
+  
+		</form>
+		
+		<video width="1000" height="300" controls auto>
+		  <source src="/video/bappa.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</section>
+		<footer>copyright@rajeshgirase</footer>
+		
+		
+		
+		<script>
+			//var b1=document.getElementById("btn1");
+			
+			//b1.innerHTML="send..."
+		</script>
+
+		
+	</body>
+</html>

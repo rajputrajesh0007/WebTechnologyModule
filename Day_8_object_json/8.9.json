@@ -1,0 +1,9 @@
+{
+    "id":1,
+    "firstName":"Rajesh",
+    "email":"rajesh@as.co",
+    "active":true,
+    "address":{
+        "city":"surat"
+    }
+}

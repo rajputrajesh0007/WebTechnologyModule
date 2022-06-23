@@ -1,0 +1,34 @@
+<html>
+	<head>This is dynamic</head>
+	<body id="hero">
+		
+		<button id="btn" value="click">Click here to create table</button>
+		<script>
+		var tabl;
+		function createTable(){
+			if(document.getElementById('newtabl')){
+				document.getElementById('newtabl').remove();
+			}
+			tabl=document.createElement('table');
+			for(var i = 0; i<5; i++){
+				var tabrow=document.createElement('tr');
+				var tabcol1=document.createElement('td');
+				tabcol1.innerHTML=i;
+				var tabcol2=document.createElement('td');
+				tabcol2.innerHTML=i+10;
+				tabl.append(tabrow);
+				tabrow.append(tabcol1);
+				tabrow.append(tabcol2);
+			}
+			document.getElementById('hero').append(tabl);
+			tabl.border="2px"
+			tabl.setAttribute("id","newtabl");
+		}
+		var bt=document.getElementById('btn');
+		bt.addEventListener('click',createTable);
+		
+		
+		</script>
+		
+	</body>
+</html>

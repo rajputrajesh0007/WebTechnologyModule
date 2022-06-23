@@ -1,0 +1,18 @@
+.mypost{
+    background: greenyellow;
+    padding: 10px;
+    margin: 10px;  
+}
+.like,.heart{
+    cursor: pointer;
+}
+.heart{
+    color: red;
+    margin-left: 10px;
+}
+#addMore{
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 250px;
+    font-size: 16px;
+}

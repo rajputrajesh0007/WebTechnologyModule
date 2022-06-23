@@ -1,0 +1,11 @@
+.mypost{
+    background: greenyellow;
+    padding: 10px;
+}
+.like,.heart{
+    cursor: pointer;
+}
+.heart{
+    color: red;
+    margin-left: 10px;
+}

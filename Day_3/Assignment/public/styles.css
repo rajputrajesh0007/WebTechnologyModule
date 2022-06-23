@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+}
+#bod{
+    background-image: url(./Images/images_hd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero_section{
+    margin-top: 115px;
+}
+
+.d-flex{
+    display: flex;
+    width: 100%;
+    max-width: 915px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.right_side{
+    max-width: 430px;
+    width: 100%;
+    background: antiquewhite;
+    padding: 20px 5px 20px 55px;
+}
+.dribble{
+    max-width: 406px;
+    height: 400px;
+}
+.dribble_title{
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.subtext{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: gray;
+    margin-top: 0;
+}
+.border{
+    border: 0;
+    border-bottom: 1px solid #FD5D5D;
+}
+.ckbox{
+    border: #FD5D5D;;
+}
+.terms{
+    color: #FD5D5D;
+    font-weight: 700;
+}
+.titl{
+    margin:0 0 7px;
+}
+.login{
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    color: white;
+    background: #FD5D5D;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 5px;
+}
+.create{
+    color: #FD5D5D;;
+}

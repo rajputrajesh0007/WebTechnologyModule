@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charshet="UTF-8">
+	<title>Rajesh Girase Website</title>
+	<link rel="icon" type="image/x-icon" href="./Images/favicon.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link rel="stylesheet" href="./styles.css">
+</head>
+<!--<body style="background-image: url('./images/BG1.jpg'); background-repeat: no-repeat; background-size: 100%; ">-->
+
+<body id="bod">
+	<section id="hero_section">
+		<div class="d-flex">
+			<div class="left_side">
+				<img class="dribble" src="./Images/dribble.jpg" alt="Dribble">
+			</div>
+			<div class="right_side">
+				<h1 class="dribble_title">Welcome to Dribbble.</h1>
+				<p class="subtext">come on and create an account</p>
+				<form action="/details.html">
+					<div class="titl">
+						<label class="subtext" for="fname">First Name:</label><br>
+						<input class="border" type="text" id="fname" name="fname">
+						<i class="fa-solid fa-check"></i>
+					</div>
+					<div class="titl">
+						<label class="subtext" for="uname">UserName:</label><br>
+						<input class="border" type="text" id="uname" name="uname">
+						<i class="fa-solid fa-check"></i>
+					</div>
+					<div class="titl">
+						<label class="subtext" for="email">Email Address:</label><br>
+						<input class="border" type="email" id="email" name="email" required />
+						<i class="fa-solid fa-check"></i>
+					</div>
+					<div class="titl">
+						<label class="subtext" for="password">Password</label><br>
+						<input class="border" type="text" id="password" pattern="[A-Za-z][1-9]{5-10}" name="password"
+							required />
+						<i class="fa-solid fa-check"></i>
+					</div>
+					<div class="titl">
+						<label class="subtext" for="password">Confirm Password</label><br>
+						<input class="border" type="text" id="password" pattern="[A-Za-z][1-9]{5-10}" name="password"
+							required />
+						<i class="fa-solid fa-check"></i>
+					</div>
+					<div>
+						<p class="subtext verify"><input class="ckbox" type="checkbox"> I agree with the website's <span
+								class="terms">terms
+								and
+								conditions</span>
+						</p>
+					</div>
+					<button class="login">Login</button>
+
+				</form>
+				<a class="create" href="./createAcc.html">Create Account</a>
+
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>

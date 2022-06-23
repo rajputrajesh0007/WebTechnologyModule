@@ -1,0 +1,23 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>MY SELF</title>
+		<link rel="icon" type="image/x-icon" href="/images/favicon_1.ico">
+	</head>
+	<!--<body style="background-image: url('./images/BG1.jpg'); background-repeat: no-repeat; background-size: 100%; ">-->
+	<body style="background-color:#C7D36F;">
+		<center><h1>Login.</h1>
+		<!--<hr size = '3'>-->
+		<form action="/details.html">
+			<label for="uname">User name:</label>
+			<input type="text" id="uname" name="uname" /><br><br>
+			<label for="password">Password name:</label>
+			<input type="text" id="password" pattern="[A-Za-z][1-9]{5-10}" name="password" /><br><br>
+			<input type="submit" id="submit" value="submit" /><br><br>
+			
+		</form>
+		<a href = "">Create Account</a>
+		</center>
+	</body>
+</html>

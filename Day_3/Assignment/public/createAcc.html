@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="This website is about to know me!" />
+	<title>Rajesh Girase Persnol Details ❤</title>
+	<!--<script>alert(document.getElementById("btn1"))</script>-->
+	<link rel="icon" type="image/x-icon" href="/images/favicon_2.ico" />
+	<!--<link rel="stylesheet" href="./styles.css">-->
+</head>
+
+<body style="background-color: #ffe6e6">
+	<section class="hero_section">
+		<h2>Enter Application Details</h2>
+		<form action="">
+			<div>
+				<div>
+					<h3>Name</h3>
+					<select name="title" id="">
+						<option value="Title">Title</option>
+						<option value="mr">Mr</option>
+						<option value="miss">Mr</option>
+					</select>
+					<input type="text" id="fname" placeholder="first name" name="fname" autocomplete="OFF" required />
+				</div>
+				<br />
+				<div>
+					<input type="text" id="mname" placeholder="middle name" name="mname" autocomplete="ON" required />
+					<input type="text" id="lname" placeholder="last name" name="lname" autocomplete="ON" required />
+				</div><br>
+				<div>
+					<label for="email">Email Address:</label>
+					<input type="email" id="email" placeholder="email" name="email" required /><br /><br />
+				</div>
+				<div>
+					<label for="country-names"> Contact number:</label>
+					<input type="phone" id="phone_number" placeholder="phone" pattern="[0-9]{10-12}" name="phone"
+						required /><br /><br />
+				</div>
+				<div>
+					<label for="DOB"> Date of Birth:</label>
+					<input type="date" id="date" name="DOB" /><br /><br />
+				</div>
+				<div>
+					<label for="file"> Upload Addhar:</label>
+					<input type="file" id="file" name="file" /><br /><br />
+				</div>
+			</div>
+
+			<div>
+				<label for="">Home Address:-</label>
+				<div>
+					<input type="text" name="address" placeholder="Street Address">
+				</div>
+				<div>
+					<input type="text" name="city" placeholder="City">
+					<select name="state-names" id="state-names">
+						<option value="state">State</option>
+						<option value="Chandigarh">Gujarat</option>
+						<option value="Chhattisgarh">Maharashtra</option>
+						<option value="Andhra Pradesh">Andhra Pradesh</option>
+						<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+						<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+						<option value="Assam">Assam</option>
+						<option value="Bihar">Bihar</option>
+						<option value="Chandigarh">Chandigarh</option>
+						<option value="Chhattisgarh">Chhattisgarh</option>
+					</select>
+					<input type="text" name="Pin" placeholder="Zip Code">
+					<select name="country-names" id="country-names">
+						<option value="Country">Country</option>
+						<option value="India">India</option>
+						<option value="UK">UK</option>
+						<option value="USA">USA</option>
+					</select>
+				</div>
+			</div>
+			<h4>How many language do you?</h4>
+			<input type="checkbox" id="lang1" name="lang1" value="Hindi" />
+			<label for="lang1"> Hindi</label><br />
+			<input type="checkbox" id="lang2" name="lang2" value="Gujarati" />
+			<label for="lang2"> Gujarati</label><br />
+			<input type="checkbox" id="lang3" name="lang3" value="English" />
+			<label for="lang3"> English</label><br />
+			<input type="checkbox" id="lang4" name="lang4" value="Marathi" />
+			<label for="lang4"> Marathi</label><br />
+			<input type="checkbox" id="lang5" name="lang5" value="japanese" />
+			<label for="lang5"> japanese</label><br />
+			<input type="checkbox" id="lang6" name="lang6" value="French" />
+			<label for="lang6"> French</label><br /><br />
+
+			<h3>Programing Skills</h3>
+			<ol type="1">
+				<li>JAVA</li>
+				<li>DATA STRUCTURE</li>
+				<li>SQL</li>
+				<li>Web-Technologies</li>
+			</ol>
+
+			<h3>Gender</h3>
+			<input type="radio" name="sex" value="male" />
+			<label for="male">Male</label><br />
+			<input type="radio" name="sex" value="female" />
+			<label for="female">Female</label><br /><br />
+
+			<h4>Your message.</h4>
+			<textarea id="review" name="review" rows="6" cols="50"></textarea><br /><br />
+
+			<button type="submit" id="btn1" onclick="change(this)" value="click">
+				Submit
+			</button>
+			<br />
+		</form>
+
+		<video width="1000" height="300" controls auto>
+			<source src="./Video/bappa.mp4" type="video/mp4" />
+			Your browser does not support the video tag.
+		</video>
+	</section>
+	<footer>copyright@rajeshgirase</footer>
+</body>
+
+</html>

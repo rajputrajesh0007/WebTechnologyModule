@@ -1,0 +1,20 @@
+/*Assignment*/
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>MY SELF</title>
+	</head>
+	<body>
+		<h1>Enter your details.</h1>
+		<form action="./details.html">
+			<label for="uname">User name:</label>
+			<input type="text" id="uname" name="uname"></input>
+			<label for="password">Password name:</label>
+			<input type="text" id="password" name="password"></input>
+			<button type = "button" value="submit">
+				Submit
+			</button>
+		</form>
+		<!--<a href = "./details.html">Click here for more info</a>-->
+	</body>
+</html>
